@@ -38,6 +38,7 @@ public class Main {
                 
                 while(actif){
                     String message = console.nextLine();
+                    out.println(message);
                     out.flush();
                 }
             } else {

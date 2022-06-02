@@ -1,0 +1,5 @@
+mysql -u root -p
+(introduire le mot de passe)
+Create Database Exemple;
+use Exemple;
+source creer_utilisateur.sql;
