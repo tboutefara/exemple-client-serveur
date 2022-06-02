@@ -1,4 +1,4 @@
-# Projet Client/Serveur : Etape 05
+# Projet Client/Serveur : Etape 06
 
 ## Description du projet
 
@@ -17,11 +17,11 @@ Pour mieux assimiler ces notions, le projet sera présenté en plusieurs
 étapes où chaque étape repérsente l'ajout d'une nouvelle fonctionnalité 
 ou d'un nouveau aspect.
 
-## Etape 05 :
+## Etape 06 :
 
-L'étape 05 consiste à créer une classe Thread pour pouvoir 
-accpeter plusieurs clients. Par créer une classe Thread dédié à
-chaque client, le Thread principal (main) peut déléguer l'échange
-(l'envoie et la réception des messages avec le client) avec chaque 
-client à un Thread dédié pour se limiter à la réception des requêtes
-de connexion.
+L'étape 06 consiste ajouter le Thread écouteur côté client. Comme pour 
+le sevreur, le thread principal est dédié pour la lecture à partir de
+la console, ainsi, un deuxième thread est nécessaire pour écouter
+les message en prevenance du serveur.
+
+L'architecture reste inchangée.
